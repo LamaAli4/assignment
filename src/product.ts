@@ -19,7 +19,8 @@ console.log("Total Price:", calculateTotal(product));
 Documentation:
 - The `Product` interface ensures that each product has a `name` and `price` property.
 - The `getTotalPrice` function iterates over an array of products and returns the total price.
-- Compile TypeScript to JavaScript using: tsc product.ts
+- Compile TypeScript to JavaScript using: tsc 
+- Run the JavaScript file using: node product.js
 
 */
 
@@ -37,5 +38,7 @@ console.log(isValid("invalid-email")); // false
 Documentation:
 - The `isValidEmail` function checks if an email address matches a basic pattern (e.g., username@domain.com).
 - Compile TypeScript to JavaScript using:
-    tsc product.ts
+    tsc 
+    node product.js
+
 */
